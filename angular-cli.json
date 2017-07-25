@@ -19,7 +19,7 @@
       "prefix": "app",
       "styles": [
         "styles.scss",
-        "../node_modules/boostrap/dist/css/boostrap.css"
+        "../node_modules/bootstrap/dist/css/bootstrap.css"
       ],
       "scripts": [],
       "environments": {
