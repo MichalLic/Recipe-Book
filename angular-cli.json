@@ -18,7 +18,8 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "styles.scss",
+        "../node_modules/boostrap/dist/css/boostrap.css"
       ],
       "scripts": [],
       "environments": {
