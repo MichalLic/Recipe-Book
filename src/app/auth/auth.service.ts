@@ -6,14 +6,14 @@ import * as firebase from 'firebase';
 export class AuthService {
   token: string;
 
+  constructor(private router: Router) {
+  }
+
   signupUser(email: string, password: string) {
     firebase.auth().createUserWithEmailAndPassword(email, password)
       .catch(
         error => console.log(error)
       );
-  }
-
-  constructor(private router: Router) {
   }
 
   signinUser(email: string, password: string) {
